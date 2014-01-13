@@ -22,3 +22,8 @@
 	display: inline-block;
 	height: 50px;
 }
+
+.likebarcontent{
+	overflow: hidden;
+	width: 100%;
+}
