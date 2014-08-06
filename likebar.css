@@ -1,29 +1,36 @@
 .fbAvatar{
 	border: none;
 	visibility: visible;
-	width: 190px;
-	height: 60px;
-	display: inline-block;
-	vertical-align: top;
+	height: 56px;
+	width: 250px;
+	float: left;
 }
 
 .fbFriendFaces{
 	border: none;
 	visibility: visible;
 	width: 545px;
-	height: 150px;
 	position: relative;
 	overflow: hidden;
-	bottom: 93px;
+	left: 10px;
 }
 
 .parentFbFaces{
 	overflow: hidden;
-	display: inline-block;
-	height: 50px;
+	float: left;
 }
 
 .likebarcontent{
 	overflow: hidden;
 	width: 100%;
+}
+
+@media(max-width: 544px){
+    iframe.fbFriendFaces {
+        width: 100%;
+    }
+	.parentFbFaces{
+		width: 100%;
+		height: auto;
+	}
 }
