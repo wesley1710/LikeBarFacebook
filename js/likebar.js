@@ -17,6 +17,7 @@
 				<iframe class="fbFriendFaces" id="fbFriendFaces" src="' + urlFaces + '" scrolling="no" frameborder="0" allowTransparency="true"></iframe>\
 			</div>';
 			$(this).append(iframe2);
+            $("body").append("<link rel='stylesheet' href='http://leygos.com/plugins/likeBar/css/likebar.css'>");
 		});
     };
 })(jQuery);
