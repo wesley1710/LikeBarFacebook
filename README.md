@@ -26,3 +26,11 @@ Exemplo:
 ```js
 $("elemento").likeBar(settings);
 ```
+
+<h3>Settings</h3>
+
+<strong>Em Construção</strong>
+
+[Demonstração](http://leygos.com/plugins/likeBar/example.html)
+
+
