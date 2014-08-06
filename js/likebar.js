@@ -1,7 +1,8 @@
 (function($){
     $.fn.likeBar = function(settings){
         var config = {
-            url: settings
+            url: "",
+            css: "online"
         };
         if (settings){$.extend(config, settings);}
 		
@@ -17,7 +18,8 @@
 				<iframe class="fbFriendFaces" id="fbFriendFaces" src="' + urlFaces + '" scrolling="no" frameborder="0" allowTransparency="true"></iframe>\
 			</div>';
 			$(this).append(iframe2);
-            $("body").append("<link rel='stylesheet' href='http://leygos.com/plugins/likeBar/css/likebar.css'>");
+            if(config.css == "online")
+                $("body").append("<link rel='stylesheet' href='http://leygos.com/plugins/likeBar/css/likebar.css'>");
 		});
     };
 })(jQuery);
